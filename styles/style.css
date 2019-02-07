@@ -16,6 +16,10 @@
   letter-spacing: 1px;
 }
 
+.nav a:hover {
+  color: #e00966;
+}
+
 .header {
   background-image: url(/images/bgwork.jpg);
   background-size: cover;
