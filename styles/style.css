@@ -1,3 +1,70 @@
+.about h1 {
+  font-family: 'Open Sans Condensed';
+  text-align: center;
+  font-size: 2em;
+  margin: 30px 0;
+  letter-spacing: 1px;
+}
+
+.about-container {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.about-container div {
+  margin-bottom: 30px;
+}
+
+.about-container div h3 {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+  font-family: 'Open Sans Condensed';
+}
+
+.about-container div p {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+.about-container div a {
+  font-size: 0.8em;
+  color: #e00966;
+  margin-top: 5px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1000px) {
+  .about h1 {
+    font-size: 3em;
+    margin: 60px 0;
+  }
+  .about-container {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .about-container div {
+    width: 28%;
+    font-family: 'Open Sans Condensed';
+  }
+  .about-container div h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  .about-container div p {
+    font-size: 1.1em;
+  }
+  .about-container div a {
+    font-size: 1em;
+  }
+}
+
 .nav {
   background-color: #2e3033;
   padding: 15px 0;
