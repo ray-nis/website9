@@ -84,6 +84,8 @@
   color: #fff;
   font-size: 0.9em;
   letter-spacing: 1px;
+  -webkit-transition: all .2s;
+  transition: all .2s;
 }
 
 .nav a:hover {
