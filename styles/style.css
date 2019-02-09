@@ -127,6 +127,14 @@
   letter-spacing: 1px;
 }
 
+.pageTitle::-moz-selection {
+  color: #e00966;
+}
+
+.pageTitle::selection {
+  color: #e00966;
+}
+
 @media screen and (min-width: 1000px) {
   .nav {
     display: -webkit-box;

@@ -60,6 +60,10 @@
     letter-spacing: 1px;
 }
 
+.pageTitle::selection {
+    color: #e00966;
+}
+
 @media screen and (min-width: 1000px) {
     .nav {
         display: flex;
