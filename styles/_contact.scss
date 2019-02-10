@@ -10,6 +10,8 @@
         margin-bottom: 30px;
         border: 1px solid #e00966;
         border-radius: 3px;
+        border-left: none;
+        border-right: none;
     }
 
     textarea::placeholder {
@@ -26,6 +28,8 @@
            border-radius: 3px;
            padding: 10px 0;
            margin-bottom: 20px;
+           border-left: none;
+           border-right: none;
         }
 
         input::placeholder {
@@ -44,6 +48,10 @@
             cursor: pointer;
             background-color: #e00966;
             font-family: 'Open Sans';
+
+            &:hover {
+                color: #e00966;
+            }
         }
     }
 }

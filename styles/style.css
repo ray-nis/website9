@@ -73,6 +73,8 @@
   margin-bottom: 30px;
   border: 1px solid #e00966;
   border-radius: 3px;
+  border-left: none;
+  border-right: none;
 }
 
 .input-container textarea::-webkit-input-placeholder {
@@ -110,6 +112,8 @@
   border-radius: 3px;
   padding: 10px 0;
   margin-bottom: 20px;
+  border-left: none;
+  border-right: none;
 }
 
 .input-container div input::-webkit-input-placeholder {
@@ -143,6 +147,10 @@
   cursor: pointer;
   background-color: #e00966;
   font-family: 'Open Sans';
+}
+
+.input-container div button:hover {
+  color: #e00966;
 }
 
 @media screen and (min-width: 1000px) {
