@@ -53,6 +53,125 @@
   }
 }
 
+.input-container {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-bottom: 50px;
+}
+
+.input-container textarea {
+  margin-bottom: 30px;
+  border: 1px solid #e00966;
+  border-radius: 3px;
+}
+
+.input-container textarea::-webkit-input-placeholder {
+  font-family: 'Open Sans';
+  text-align: center;
+}
+
+.input-container textarea:-ms-input-placeholder {
+  font-family: 'Open Sans';
+  text-align: center;
+}
+
+.input-container textarea::-ms-input-placeholder {
+  font-family: 'Open Sans';
+  text-align: center;
+}
+
+.input-container textarea::placeholder {
+  font-family: 'Open Sans';
+  text-align: center;
+}
+
+.input-container div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.input-container div input {
+  border: 1px solid #e00966;
+  border-radius: 3px;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.input-container div input::-webkit-input-placeholder {
+  font-family: 'Open Sans';
+  text-align: center;
+}
+
+.input-container div input:-ms-input-placeholder {
+  font-family: 'Open Sans';
+  text-align: center;
+}
+
+.input-container div input::-ms-input-placeholder {
+  font-family: 'Open Sans';
+  text-align: center;
+}
+
+.input-container div input::placeholder {
+  font-family: 'Open Sans';
+  text-align: center;
+}
+
+.input-container div button {
+  width: 100%;
+  border: 1px solid #e00966;
+  border-radius: 3px;
+  font-size: 1em;
+  color: #fff;
+  padding: 10px 5px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #e00966;
+  font-family: 'Open Sans';
+}
+
+@media screen and (min-width: 1000px) {
+  .input-container {
+    width: 90%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .input-container textarea {
+    width: 40%;
+  }
+  .input-container div {
+    width: 40%;
+  }
+  .input-container div input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
 .nav {
   background-color: #2e3033;
   padding: 15px 0;
